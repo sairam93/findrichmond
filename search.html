@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Make It Real</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+
+<div id="page">
+
+    <h1>Let's Make it real :)</h1>
+    
+    <form method="get" action="https://www.google.com/search?q=">
+		<fieldset>
+        
+           	<input id="s" type="text" name="q" value="" maxlength="106" />
+            
+            <input type="submit" name="submit" value="Submit" id="submitButton" />
+            
+            <div id="searchInContainer">
+                <input type="radio" name="check" value="site" id="searchSite" checked />
+                <label for="searchSite" id="siteNameLabel">Search FindRichmond</label>
+                
+                <input type="radio" name="check" value="web" id="searchWeb" />
+                <label for="searchWeb">Search The Web</label>
+                 <input type="radio" name="check" value="web" id="searchWeb" />
+                <label for="searchWeb">Both</label>
+			</div>
+                        
+            </fieldset>
+    </form>
+
+    <div id="resultsDiv"></div>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
